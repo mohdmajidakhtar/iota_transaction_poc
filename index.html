@@ -1,2 +1,28 @@
  <!-- This code has be modified by Mohd Majid Akhtar and it uses original code from IOTA foundation. -->
- <html><meta charset="utf-8" /><head><title>Comnet Faucet PoC</title></head> <script type="text/javascript" src="balanceweb.js"></script> <body><h1 style="text-align: center">Proof of Concept of Comnet Faucet Transaction V0.1</h1><br><br> <label for="senderseed" class="col-lg-2 control-label">Enter Sender Seed: </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="senderseed" type="text" size="115" placeholder="Enter Sender Seed Here"><br><br> <label for="senderseedindex" class="col-lg-2 control-label">Enter Sender Seed Index: </label> &nbsp;<input id="senderseedindex" type="number" placeholder="Enter address index here"><br><br> <label for="receiveraddress" class="col-lg-2 control-label">Enter Receiver Address: </label> &nbsp;&nbsp;&nbsp;<input id="receiveraddress" type="text" size="115" placeholder="Enter receiver address here"><br><br> <label for="comnetbalance" class="col-lg-2 control-label">Enter Faucet Balance: </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="comnetbalance" type="number" placeholder="Enter transfer amount"><br><br> &nbsp;&nbsp;<button id="send" onclick="main();">Send</button>&ensp; &ensp;<p id="hash"></p></body> <script type="text/javascript" src="index.js"></script> </html>
+ <html>
+<meta charset="utf-8" />
+
+<head>
+    <title>Comnet Faucet PoC</title>
+</head>
+
+<script type="text/javascript" src="balanceweb.js"></script>
+
+<body>
+    <h1 style="text-align: center">Proof of Concept of Comnet Faucet Transaction V0.1</h1><br><br>
+    <label for="senderseed" class="col-lg-2 control-label">Enter Sender Seed: </label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="senderseed" type="text" size="115" placeholder="Enter Sender Seed Here"><br><br>
+    <label for="senderseedindex" class="col-lg-2 control-label">Enter Sender Seed Index: </label>
+    &nbsp;<input id="senderseedindex" type="number" placeholder="Enter address index here"><br><br>
+    <label for="receiveraddress" class="col-lg-2 control-label">Enter Receiver Address: </label>
+    &nbsp;&nbsp;&nbsp;<input id="receiveraddress" type="text" size="115" placeholder="Enter receiver address here"><br><br>
+    <label for="comnetbalance" class="col-lg-2 control-label">Enter Faucet Balance: </label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="comnetbalance" type="number" placeholder="Enter transfer amount"><br><br>
+    
+    &nbsp;&nbsp;<button id="send" onclick="main();">Send</button>&ensp; &ensp;
+    
+    <p id="hash"></p>
+    
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
